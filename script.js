@@ -1,6 +1,6 @@
      'use strict';
     //function which uploads saved state of body from local strorage
-    document.body.innerHTML = localStorage.getItem('data');
+    if (localStorage.getItem('data'))document.body.innerHTML = localStorage.getItem('data');
 
 
     //  Audio
