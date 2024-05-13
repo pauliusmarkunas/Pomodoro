@@ -153,8 +153,7 @@
         });
     
         addNote.addEventListener('click', function(){
-          // audio.addNote().play();
-          audio.play(audio.addNote);
+          audio.addNote().play();
           addNote.classList.add('remove-global');
           noteInput.classList.remove('remove-global');
         });
